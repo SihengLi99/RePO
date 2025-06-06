@@ -1,0 +1,30 @@
+# Model arguments
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+trust_remote_code: true
+
+# GRPO trainer config
+bf16: true
+do_eval: false
+eval_strategy: 'no'
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+log_completions: true
+log_level: info
+logging_first_step: true
+logging_steps: 5
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_steps: -1
+overwrite_output_dir: true
+push_to_hub: false
+report_to:
+- wandb
+save_strategy: "epoch"
+save_total_limit: 1
+save_only_model: true
+seed: 42
+warmup_ratio: 0.1
