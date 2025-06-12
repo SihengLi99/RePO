@@ -30,7 +30,7 @@ export ACCELERATE_LOG_LEVEL=info
 PROJECT_HOME=/mnt/petrelfs/lisiheng/RePO
 OUTPUT_HOME=/mnt/lustrenew/mllm_safety-shared/lisiheng
 
-MODEL_DIR=$OUTPUT_HOME/checkpoints
+MODEL_DIR=/mnt/lustrenew/mllm_safety-shared/models/huggingface/Siheng99
 
 # MODEL_NAME=Qwen2.5-Math-1.5B-DeepMath-1024samples-3-accuracy-512-1024-8-1.0-50-grpo-0.0-0.20-0.20-1-true-1e-6-32-GRPO
 
@@ -42,7 +42,9 @@ MODEL_DIR=$OUTPUT_HOME/checkpoints
 
 # MODEL_NAME=Qwen3-1.7B-DeepMath-1024samples-3-accuracy-512-1024-8-1.0-50-grpo-0.0-0.20-0.20-1-true-1e-6-32-GRPO
 
-MODEL_NAME=Qwen3-1.7B-DeepMath-1024samples-3-accuracy-512-1024-8-1.0-50-grpo-0.0-0.20-0.20-1-true-1e-6-32-highest_k-8-16-16-split-1.0-ReplayGRPO
+# MODEL_NAME=Qwen3-1.7B-DeepMath-1024samples-3-accuracy-512-1024-8-1.0-50-grpo-0.0-0.20-0.20-1-true-1e-6-32-highest_k-8-16-16-split-1.0-ReplayGRPO
+
+MODEL_NAME=Qwen3-1.7B-DeepMath-1024samples-RePO
 
 MODEL_NAME_OR_PATH=$MODEL_DIR/$MODEL_NAME
 

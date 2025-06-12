@@ -1,9 +1,9 @@
-<h3 align="center"><a href="https://arxiv.org/pdf/2411.08147">
+<h3 align="center"><a href="https://arxiv.org/pdf/2506.09340">
 RePO: Replay-Enhanced Policy Optimization</a></h3>
 
 
 <p align="center">
-  <a href="https://arxiv.org/pdf/2411.08147">
+  <a href="https://arxiv.org/pdf/2506.09340">
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
   <a href="https://huggingface.co/collections/Siheng99/repo-6842917aa0de58f74c52f79c">
@@ -52,10 +52,13 @@ sbatch scripts/train_replay_grpo.slurm
 
 If RePO is useful for your research or applications, please cite it with the following BibTeX:
 ```bibtex
-@article{li2024large,
-  title={Large Language Models Can Self-Improve in Long-context Reasoning},
-  author={Li, Siheng and Yang, Cheng and Cheng, Zesen and Liu, Lemao and Yu, Mo and Yang, Yujiu and Lam, Wai},
-  journal={arXiv preprint arXiv:2411.08147},
-  year={2024}
+@misc{li2025reporeplayenhancedpolicyoptimization,
+      title={RePO: Replay-Enhanced Policy Optimization}, 
+      author={Siheng Li and Zhanhui Zhou and Wai Lam and Chao Yang and Chaochao Lu},
+      year={2025},
+      eprint={2506.09340},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.09340}, 
 }
 ```
